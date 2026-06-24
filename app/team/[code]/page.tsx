@@ -19,14 +19,11 @@ export default function TeamPage({ params }: { params: { code: string } }) {
         return (b.gf - b.ga) - (a.gf - a.ga);
       })
     : [];
-  const teamInGroup = sorted.find((t) => t.code === team.code);
   const teamRank = sorted.findIndex((t) => t.code === team.code) + 1;
-
   const groupMatches = (group as any)?.matches ?? [];
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      {/* ヘッダー */}
       <div className="bg-gradient-to-br from-[#0d3d22] to-[#1a6b3c] text-white rounded-2xl p-6 mb-6 shadow-xl">
         <div className="flex items-center gap-6">
           <div className="text-7xl">{team.flag}</div>
@@ -56,20 +53,15 @@ export default function TeamPage({ params }: { params: { code: string } }) {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6 mb-6">
-        {/* フォーメーション図 */}
         <section className="bg-white rounded-xl shadow-md overflow-hidden">
           <div className="px-4 py-3 border-b border-gray-100">
             <h2 className="font-bold text-[#0d3d22]">フォーメーション ({team.formation})</h2>
           </div>
           <div className="p-4">
-            <FormationView
-              players={team.players as any}
-              formation={team.formationPositions as any}
-            />
+            <FormationView players={team.players as any} formation={team.formationPositions as any} />
           </div>
         </section>
 
-        {/* グループ内順位 */}
         <section className="bg-white rounded-xl shadow-md overflow-hidden">
           <div className="px-4 py-3 border-b border-gray-100">
             <h2 className="font-bold text-[#0d3d22]">グループ {team.group} 順位表</h2>
@@ -105,8 +97,6 @@ export default function TeamPage({ params }: { params: { code: string } }) {
               </tbody>
             </table>
           </div>
-
-          {/* 試合結果 */}
           {groupMatches.length > 0 && (
             <div className="px-4 pb-4 pt-2">
               <h3 className="font-bold text-[#0d3d22] mb-2 text-sm">試合結果</h3>
@@ -135,7 +125,6 @@ export default function TeamPage({ params }: { params: { code: string } }) {
         </section>
       </div>
 
-      {/* 選手一覧 */}
       <section className="bg-white rounded-xl shadow-md overflow-hidden">
         <div className="px-4 py-3 border-b border-gray-100">
           <h2 className="font-bold text-[#0d3d22]">選手一覧</h2>

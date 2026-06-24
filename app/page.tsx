@@ -6,7 +6,6 @@ export default function Home() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      {/* Hero */}
       <section className="bg-gradient-to-br from-[#0d3d22] to-[#1a6b3c] text-white rounded-2xl p-8 mb-8 shadow-xl">
         <div className="text-center">
           <div className="text-6xl mb-4">🏆</div>
@@ -14,8 +13,6 @@ export default function Home() {
             FIFA ワールドカップ 2026
           </h1>
           <p className="text-xl text-white/80 mb-6">北中米大会 — アメリカ・カナダ・メキシコ</p>
-
-          {/* 大会概要 */}
           <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto">
             <div className="bg-white/10 rounded-xl p-4">
               <div className="text-3xl font-bold text-[#c9a84c]">48</div>
@@ -33,7 +30,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 現在のフェーズ */}
       <section className="bg-white rounded-xl p-6 mb-6 shadow-md border-l-4 border-[#1a6b3c]">
         <div className="flex items-center gap-3">
           <span className="relative flex h-3 w-3">
@@ -48,11 +44,8 @@ export default function Home() {
       </section>
 
       <div className="grid md:grid-cols-2 gap-6">
-        {/* 得点ランキングTOP5 */}
         <section className="bg-white rounded-xl p-6 shadow-md">
-          <h2 className="text-xl font-bold text-[#0d3d22] mb-4 flex items-center gap-2">
-            ⚽ 得点ランキング TOP5
-          </h2>
+          <h2 className="text-xl font-bold text-[#0d3d22] mb-4">⚽ 得点ランキング TOP5</h2>
           <div className="space-y-3">
             {top5.map((player, i) => (
               <div key={i} className="flex items-center gap-3">
@@ -76,21 +69,20 @@ export default function Home() {
           </Link>
         </section>
 
-        {/* クイックリンク */}
         <section className="space-y-4">
           <Link href="/groups" className="block bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-transparent hover:border-[#1a6b3c]">
             <div className="flex items-center gap-4">
               <div className="text-4xl">📊</div>
               <div>
                 <h3 className="text-lg font-bold text-[#0d3d22]">グループステージ</h3>
-                <p className="text-sm text-gray-500">12グループ（A〜L）の順位表を見る</p>
+                <p className="text-sm text-gray-500">12グループ（A～L）の順位表を見る</p>
               </div>
               <span className="ml-auto text-gray-300">→</span>
             </div>
           </Link>
           <Link href="/bracket" className="block bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-transparent hover:border-[#1a6b3c]">
             <div className="flex items-center gap-4">
-              <div className="text-4xl">🏟️</div>
+              <div className="text-4xl">🏙️</div>
               <div>
                 <h3 className="text-lg font-bold text-[#0d3d22]">トーナメント表</h3>
                 <p className="text-sm text-gray-500">ラウンド32から決勝までの組み合わせ</p>
@@ -111,17 +103,16 @@ export default function Home() {
         </section>
       </div>
 
-      {/* グループF注目 */}
       <section className="mt-6 bg-gradient-to-r from-white to-blue-50 rounded-xl p-6 shadow-md border border-blue-100">
         <h2 className="text-xl font-bold text-[#0d3d22] mb-4">🇯🇵 注目：グループF（日本グループ）</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {[
-            { flag: "🇳🇱", name: "オランダ", pts: 6, rank: 1 },
-            { flag: "🇯🇵", name: "日本", pts: 3, rank: 2 },
-            { flag: "🇸🇪", name: "スウェーデン", pts: 3, rank: 3 },
-            { flag: "🇹🇳", name: "チュニジア", pts: 0, rank: 4 },
+            { flag: "🇳🇱", name: "オランダ", pts: 6, rank: 1, code: "NED" },
+            { flag: "🇯🇵", name: "日本", pts: 3, rank: 2, code: "JPN" },
+            { flag: "🇸🇪", name: "スウェーデン", pts: 3, rank: 3, code: "SWE" },
+            { flag: "🇹🇳", name: "チュニジア", pts: 0, rank: 4, code: "TUN" },
           ].map((team) => (
-            <Link key={team.name} href={`/team/${team.name === "オランダ" ? "NED" : team.name === "日本" ? "JPN" : team.name === "スウェーデン" ? "SWE" : "TUN"}`}
+            <Link key={team.code} href={`/team/${team.code}`}
               className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
               <div className="text-3xl mb-1">{team.flag}</div>
               <div className="font-bold text-gray-800">{team.name}</div>

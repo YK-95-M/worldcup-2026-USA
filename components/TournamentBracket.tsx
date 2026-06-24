@@ -50,16 +50,8 @@ interface BracketData {
 }
 
 export default function TournamentBracket({ data }: { data: BracketData }) {
-  const rounds = [
-    { label: "ラウンド32", matches: data.roundOf32, cols: 4 },
-    { label: "ラウンド16", matches: data.roundOf16, cols: 2 },
-    { label: "準々決勝", matches: data.quarterFinals, cols: 2 },
-    { label: "準決勝", matches: data.semiFinals, cols: 1 },
-  ];
-
   return (
     <div className="space-y-8">
-      {/* ラウンド32 */}
       <section>
         <h2 className="text-lg font-bold text-[#0d3d22] mb-3 border-b-2 border-[#c9a84c] pb-1">
           ラウンド32（決勝トーナメント1回戦）
@@ -70,8 +62,6 @@ export default function TournamentBracket({ data }: { data: BracketData }) {
           ))}
         </div>
       </section>
-
-      {/* ラウンド16 */}
       <section>
         <h2 className="text-lg font-bold text-[#0d3d22] mb-3 border-b-2 border-[#c9a84c] pb-1">
           ラウンド16（ベスト16）
@@ -82,8 +72,6 @@ export default function TournamentBracket({ data }: { data: BracketData }) {
           ))}
         </div>
       </section>
-
-      {/* 準々決勝 */}
       <section>
         <h2 className="text-lg font-bold text-[#0d3d22] mb-3 border-b-2 border-[#c9a84c] pb-1">
           準々決勝（ベスト8）
@@ -94,8 +82,6 @@ export default function TournamentBracket({ data }: { data: BracketData }) {
           ))}
         </div>
       </section>
-
-      {/* 準決勝 */}
       <section>
         <h2 className="text-lg font-bold text-[#0d3d22] mb-3 border-b-2 border-[#c9a84c] pb-1">
           準決勝（ベスト4）
@@ -106,8 +92,6 @@ export default function TournamentBracket({ data }: { data: BracketData }) {
           ))}
         </div>
       </section>
-
-      {/* 決勝 */}
       <section>
         <h2 className="text-lg font-bold text-[#0d3d22] mb-3 border-b-2 border-[#c9a84c] pb-1">
           🏆 決勝

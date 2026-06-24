@@ -23,21 +23,18 @@ const TABS = [
   { key: "topScorers", label: "今大会 得点", icon: "⚽" },
   { key: "topAssists", label: "今大会 アシスト", icon: "🎯" },
   { key: "allTimeScorers", label: "通算 得点", icon: "🏅" },
-  { key: "allTimeAssists", label: "通算 アシスト", icon: "📊" },
+  { key: "allTimeAssists", label: "通算 アシスト", icon: "📈" },
 ] as const;
 
 type TabKey = typeof TABS[number]["key"];
 
 export default function StatsRanking({ data }: { data: StatsData }) {
   const [activeTab, setActiveTab] = useState<TabKey>("topScorers");
-
   const players = data[activeTab] as Player[];
-  const valueKey = activeTab.includes("Scorer") || activeTab.includes("Scorer") ? "goals" : "assists";
   const isGoals = activeTab.includes("Scorer");
 
   return (
     <div>
-      {/* タブ */}
       <div className="flex flex-wrap gap-2 mb-6">
         {TABS.map((tab) => (
           <button
@@ -53,8 +50,6 @@ export default function StatsRanking({ data }: { data: StatsData }) {
           </button>
         ))}
       </div>
-
-      {/* ランキング表 */}
       <div className="bg-white rounded-xl shadow-md overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full">
@@ -73,9 +68,8 @@ export default function StatsRanking({ data }: { data: StatsData }) {
             <tbody>
               {players.map((player, i) => {
                 const value = isGoals ? player.goals : player.assists;
-                const isTop3 = i < 3;
                 return (
-                  <tr key={i} className={`border-t border-gray-100 ${isTop3 ? "bg-amber-50" : "hover:bg-gray-50"} transition-colors`}>
+                  <tr key={i} className={`border-t border-gray-100 ${i < 3 ? "bg-amber-50" : "hover:bg-gray-50"} transition-colors`}>
                     <td className="px-4 py-3">
                       <span className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-sm font-bold text-white ${
                         i === 0 ? "bg-[#c9a84c]" : i === 1 ? "bg-gray-400" : i === 2 ? "bg-amber-600" : "bg-gray-200 text-gray-600"
@@ -92,9 +86,7 @@ export default function StatsRanking({ data }: { data: StatsData }) {
                     </td>
                     <td className="px-4 py-3 text-sm text-gray-500 hidden md:table-cell">{player.club}</td>
                     {activeTab.startsWith("allTime") && (
-                      <td className="px-4 py-3 text-center text-sm text-gray-500 hidden md:table-cell">
-                        {player.tournaments}大会
-                      </td>
+                      <td className="px-4 py-3 text-center text-sm text-gray-500 hidden md:table-cell">{player.tournaments}大会</td>
                     )}
                     <td className="px-4 py-3 text-center">
                       <span className="text-2xl font-bold text-[#1a6b3c]">{value}</span>

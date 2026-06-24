@@ -29,19 +29,6 @@ export default function GroupTable({ group }: { group: Group }) {
     return b.gf - a.gf;
   });
 
-  const teamCodes: Record<string, string> = {
-    USA: "USA", MEX: "MEX", POL: "POL", KSA: "KSA",
-    ESP: "ESP", BRA: "BRA", CHE: "CHE", CMR: "CMR",
-    ARG: "ARG", CAN: "CAN", EGY: "EGY", NZL: "NZL",
-    FRA: "FRA", GER: "GER", ITA: "ITA", ALG: "ALG",
-    ENG: "ENG", POR: "POR", URU: "URU", KOR: "KOR",
-    NED: "NED", JPN: "JPN", SWE: "SWE", TUN: "TUN",
-    BEL: "BEL", NOR: "NOR", SEN: "SEN", CHN: "CHN",
-    PRT: "PRT", COL: "COL", MAR: "MAR", GHA: "GHA",
-    NGA: "NGA", TUR: "TUR", CIV: "CIV", AUS: "AUS",
-    CRO: "CRO", DEN: "DEN", IRN: "IRN", ECU: "ECU",
-  };
-
   const navigableTeams = ["JPN", "NED", "SWE", "TUN", "ARG"];
 
   return (
