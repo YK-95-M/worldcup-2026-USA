@@ -1,0 +1,43 @@
+{
+  "roundOf32": [
+    { "id": "R32_1", "home": "1A", "away": "2B", "homeTeam": "アメリカ", "awayTeam": "ブラジル", "homeFlag": "🇺🇸", "awayFlag": "🇧🇷", "homeScore": 2, "awayScore": 1, "winner": "home" },
+    { "id": "R32_2", "home": "1B", "away": "2A", "homeTeam": "スペイン", "awayTeam": "メキシコ", "homeFlag": "🇪🇸", "awayFlag": "🇲🇽", "homeScore": 3, "awayScore": 0, "winner": "home" },
+    { "id": "R32_3", "home": "1C", "away": "2D", "homeTeam": "アルゼンチン", "awayTeam": "ドイツ", "homeFlag": "🇦🇷", "awayFlag": "🇩🇪", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_4", "home": "1D", "away": "2C", "homeTeam": "フランス", "awayTeam": "カナダ", "homeFlag": "🇫🇷", "awayFlag": "🇨🇦", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_5", "home": "1E", "away": "2F", "homeTeam": "イングランド", "awayTeam": "オランダ", "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "awayFlag": "🇳🇱", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_6", "home": "1F", "away": "2E", "homeTeam": "TBD", "awayTeam": "ポルトガル", "homeFlag": "❓", "awayFlag": "🇵🇹", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_7", "home": "1G", "away": "2H", "homeTeam": "TBD", "awayTeam": "コロンビア", "homeFlag": "❓", "awayFlag": "🇨🇴", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_8", "home": "1H", "away": "2G", "homeTeam": "ポルトガル", "awayTeam": "TBD", "homeFlag": "🇵🇹", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_9", "home": "1I", "away": "2J", "homeTeam": "TBD", "awayTeam": "デンマーク", "homeFlag": "❓", "awayFlag": "🇩🇰", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_10", "home": "1J", "away": "2I", "homeTeam": "クロアチア", "awayTeam": "TBD", "homeFlag": "🇭🇷", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_11", "home": "1K", "away": "2L", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_12", "home": "1L", "away": "2K", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_13", "home": "3rd1", "away": "3rd2", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_14", "home": "3rd3", "away": "3rd4", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_15", "home": "3rd5", "away": "3rd6", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R32_16", "home": "3rd7", "away": "3rd8", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null }
+  ],
+  "roundOf16": [
+    { "id": "R16_1", "homeTeam": "アメリカ", "awayTeam": "スペイン", "homeFlag": "🇺🇸", "awayFlag": "🇪🇸", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_2", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_3", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_4", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_5", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_6", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_7", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "R16_8", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null }
+  ],
+  "quarterFinals": [
+    { "id": "QF_1", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "QF_2", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "QF_3", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "QF_4", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null }
+  ],
+  "semiFinals": [
+    { "id": "SF_1", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null },
+    { "id": "SF_2", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null }
+  ],
+  "final": {
+    "id": "FINAL", "homeTeam": "TBD", "awayTeam": "TBD", "homeFlag": "❓", "awayFlag": "❓", "homeScore": null, "awayScore": null, "winner": null
+  }
+}

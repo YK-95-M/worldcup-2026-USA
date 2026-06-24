@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wc-green: #1a6b3c;
+  --wc-gold: #c9a84c;
+  --wc-dark: #0d3d22;
+}
+
+body {
+  background-color: #f0f4f1;
+}

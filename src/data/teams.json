@@ -1,0 +1,167 @@
+{
+  "teams": [
+    {
+      "code": "JPN",
+      "name": "日本",
+      "nameEn": "Japan",
+      "flag": "🇯🇵",
+      "fifaRank": 17,
+      "group": "F",
+      "groupRank": 2,
+      "formation": "4-2-3-1",
+      "players": [
+        { "number": 1, "name": "鈴木彩艶", "position": "GK", "club": "パルマ", "goals": 0, "assists": 0 },
+        { "number": 2, "name": "菅原由勢", "position": "DF", "club": "サウサンプトン", "goals": 0, "assists": 1 },
+        { "number": 3, "name": "谷口彰悟", "position": "DF", "club": "アル・ラーヤン", "goals": 0, "assists": 0 },
+        { "number": 4, "name": "板倉滉", "position": "DF", "club": "ボルシアMG", "goals": 0, "assists": 0 },
+        { "number": 5, "name": "中山雄太", "position": "DF", "club": "ハダーズフィールド", "goals": 0, "assists": 0 },
+        { "number": 6, "name": "遠藤航", "position": "MF", "club": "リバプール", "goals": 0, "assists": 1 },
+        { "number": 7, "name": "三笘薫", "position": "MF", "club": "ブライトン", "goals": 1, "assists": 1 },
+        { "number": 8, "name": "鎌田大地", "position": "MF", "club": "クリスタルパレス", "goals": 0, "assists": 0 },
+        { "number": 9, "name": "上田綺世", "position": "FW", "club": "フェイエノールト", "goals": 1, "assists": 0 },
+        { "number": 10, "name": "久保建英", "position": "MF", "club": "レアル・ソシエダ", "goals": 1, "assists": 0 },
+        { "number": 11, "name": "中村敬斗", "position": "FW", "club": "スタッド・ド・ランス", "goals": 0, "assists": 1 },
+        { "number": 12, "name": "前川黛也", "position": "GK", "club": "ヴィッセル神戸", "goals": 0, "assists": 0 },
+        { "number": 13, "name": "冨安健洋", "position": "DF", "club": "アーセナル", "goals": 0, "assists": 0 },
+        { "number": 14, "name": "伊東純也", "position": "FW", "club": "スタッド・ド・ランス", "goals": 0, "assists": 0 },
+        { "number": 16, "name": "守田英正", "position": "MF", "club": "スポルティングCP", "goals": 0, "assists": 0 },
+        { "number": 17, "name": "田中碧", "position": "MF", "club": "リーズ・ユナイテッド", "goals": 0, "assists": 0 },
+        { "number": 18, "name": "浅野拓磨", "position": "FW", "club": "マジョルカ", "goals": 0, "assists": 0 },
+        { "number": 19, "name": "橋岡大樹", "position": "DF", "club": "ルートン・タウン", "goals": 0, "assists": 0 },
+        { "number": 20, "name": "南野拓実", "position": "MF", "club": "モナコ", "goals": 0, "assists": 0 },
+        { "number": 21, "name": "堂安律", "position": "MF", "club": "フライブルク", "goals": 0, "assists": 0 },
+        { "number": 22, "name": "西尾隆矢", "position": "DF", "club": "セレッソ大阪", "goals": 0, "assists": 0 },
+        { "number": 23, "name": "シュミット・ダニエル", "position": "GK", "club": "シント＝トロイデン", "goals": 0, "assists": 0 }
+      ],
+      "formationPositions": {
+        "type": "4-2-3-1",
+        "lines": [
+          [1],
+          [2, 4, 3, 5],
+          [6, 16],
+          [11, 10, 7],
+          [9]
+        ]
+      }
+    },
+    {
+      "code": "NED",
+      "name": "オランダ",
+      "nameEn": "Netherlands",
+      "flag": "🇳🇱",
+      "fifaRank": 7,
+      "group": "F",
+      "groupRank": 1,
+      "formation": "4-3-3",
+      "players": [
+        { "number": 1, "name": "ネフェルス", "position": "GK", "club": "PSV", "goals": 0, "assists": 0 },
+        { "number": 4, "name": "ファン・ダイク", "position": "DF", "club": "リバプール", "goals": 1, "assists": 0 },
+        { "number": 5, "name": "ティンバー", "position": "DF", "club": "アーセナル", "goals": 0, "assists": 0 },
+        { "number": 6, "name": "デ・リフト", "position": "DF", "club": "マンチェスターU", "goals": 0, "assists": 0 },
+        { "number": 7, "name": "ガクポ", "position": "FW", "club": "リバプール", "goals": 2, "assists": 1 },
+        { "number": 8, "name": "フレンキー・デ・ヨング", "position": "MF", "club": "バルセロナ", "goals": 0, "assists": 1 },
+        { "number": 10, "name": "スナイデル2世", "position": "MF", "club": "PSG", "goals": 1, "assists": 1 },
+        { "number": 11, "name": "ベルフワイン", "position": "FW", "club": "スポルティングCP", "goals": 1, "assists": 0 },
+        { "number": 17, "name": "デパイ", "position": "FW", "club": "アトレティコ", "goals": 1, "assists": 0 },
+        { "number": 21, "name": "ダンフリース", "position": "DF", "club": "インテル", "goals": 0, "assists": 1 },
+        { "number": 22, "name": "テイラー", "position": "MF", "club": "アヤックス", "goals": 0, "assists": 0 }
+      ],
+      "formationPositions": {
+        "type": "4-3-3",
+        "lines": [
+          [1],
+          [21, 6, 4, 5],
+          [8, 10, 22],
+          [11, 17, 7]
+        ]
+      }
+    },
+    {
+      "code": "SWE",
+      "name": "スウェーデン",
+      "nameEn": "Sweden",
+      "flag": "🇸🇪",
+      "fifaRank": 25,
+      "group": "F",
+      "groupRank": 3,
+      "formation": "4-4-2",
+      "players": [
+        { "number": 1, "name": "オルセン", "position": "GK", "club": "ASローマ", "goals": 0, "assists": 0 },
+        { "number": 3, "name": "アウグスティンソン", "position": "DF", "club": "マジョルカ", "goals": 0, "assists": 0 },
+        { "number": 4, "name": "ダニエルソン", "position": "DF", "club": "ノッティンガム", "goals": 0, "assists": 0 },
+        { "number": 5, "name": "リンデレフ", "position": "DF", "club": "マンチェスターC", "goals": 0, "assists": 0 },
+        { "number": 7, "name": "フォルスベリ", "position": "MF", "club": "RBライプツィヒ", "goals": 1, "assists": 1 },
+        { "number": 9, "name": "イサク", "position": "FW", "club": "ニューカッスル", "goals": 2, "assists": 0 },
+        { "number": 10, "name": "クルセフスキ", "position": "MF", "club": "トッテナム", "goals": 0, "assists": 1 },
+        { "number": 11, "name": "クヴァーン", "position": "FW", "club": "バイエルン", "goals": 0, "assists": 0 },
+        { "number": 17, "name": "エクダル", "position": "MF", "club": "サンプドリア", "goals": 0, "assists": 0 },
+        { "number": 22, "name": "ラーション", "position": "DF", "club": "ブレントフォード", "goals": 0, "assists": 0 }
+      ],
+      "formationPositions": {
+        "type": "4-4-2",
+        "lines": [
+          [1],
+          [3, 4, 5, 22],
+          [17, 7, 10, 11],
+          [9, 9]
+        ]
+      }
+    },
+    {
+      "code": "TUN",
+      "name": "チュニジア",
+      "nameEn": "Tunisia",
+      "flag": "🇹🇳",
+      "fifaRank": 30,
+      "group": "F",
+      "groupRank": 4,
+      "formation": "4-3-3",
+      "players": [
+        { "number": 1, "name": "ドゥガズ", "position": "GK", "club": "エスペランス", "goals": 0, "assists": 0 },
+        { "number": 5, "name": "マレ", "position": "DF", "club": "ニーム", "goals": 0, "assists": 0 },
+        { "number": 8, "name": "フスター", "position": "MF", "club": "ボルドー", "goals": 0, "assists": 0 },
+        { "number": 9, "name": "ハズリ", "position": "FW", "club": "ASFエリュ", "goals": 1, "assists": 0 },
+        { "number": 10, "name": "ムサ", "position": "MF", "club": "トラブゾンスポル", "goals": 0, "assists": 0 },
+        { "number": 11, "name": "ドラメル", "position": "FW", "club": "レン", "goals": 0, "assists": 0 },
+        { "number": 19, "name": "ベドウイ", "position": "MF", "club": "エスペランス", "goals": 0, "assists": 0 }
+      ],
+      "formationPositions": {
+        "type": "4-3-3",
+        "lines": [
+          [1],
+          [5, 5, 5, 5],
+          [8, 19, 10],
+          [11, 9, 11]
+        ]
+      }
+    },
+    {
+      "code": "ARG",
+      "name": "アルゼンチン",
+      "nameEn": "Argentina",
+      "flag": "🇦🇷",
+      "fifaRank": 1,
+      "group": "C",
+      "groupRank": 1,
+      "formation": "4-3-3",
+      "players": [
+        { "number": 1, "name": "マルティネス", "position": "GK", "club": "アストンビラ", "goals": 0, "assists": 0 },
+        { "number": 10, "name": "メッシ", "position": "FW", "club": "インテル・マイアミ", "goals": 5, "assists": 3 },
+        { "number": 9, "name": "ラウタロ", "position": "FW", "club": "インテル", "goals": 2, "assists": 1 },
+        { "number": 11, "name": "ディ・マリア", "position": "FW", "club": "フェニックス", "goals": 1, "assists": 2 },
+        { "number": 5, "name": "デ・パウル", "position": "MF", "club": "アトレティコ", "goals": 0, "assists": 1 },
+        { "number": 7, "name": "アルバレス", "position": "FW", "club": "マンチェスターC", "goals": 0, "assists": 0 },
+        { "number": 24, "name": "マク・アジスター", "position": "MF", "club": "リバプール", "goals": 0, "assists": 0 }
+      ],
+      "formationPositions": {
+        "type": "4-3-3",
+        "lines": [
+          [1],
+          [5, 5, 5, 5],
+          [5, 24, 5],
+          [11, 9, 10]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "id": "A",
+      "teams": [
+        { "code": "USA", "name": "アメリカ", "flag": "🇺🇸", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 5, "ga": 1, "pts": 6, "qualified": true },
+        { "code": "MEX", "name": "メキシコ", "flag": "🇲🇽", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "POL", "name": "ポーランド", "flag": "🇵🇱", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false },
+        { "code": "KSA", "name": "サウジアラビア", "flag": "🇸🇦", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "B",
+      "teams": [
+        { "code": "ESP", "name": "スペイン", "flag": "🇪🇸", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 6, "ga": 1, "pts": 6, "qualified": true },
+        { "code": "BRA", "name": "ブラジル", "flag": "🇧🇷", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 3, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "CHE", "name": "スイス", "flag": "🇨🇭", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false },
+        { "code": "CMR", "name": "カメルーン", "flag": "🇨🇲", "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 1, "ga": 5, "pts": 0, "qualified": false }
+      ]
+    },
+    {
+      "id": "C",
+      "teams": [
+        { "code": "ARG", "name": "アルゼンチン", "flag": "🇦🇷", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 8, "ga": 2, "pts": 6, "qualified": true },
+        { "code": "CAN", "name": "カナダ", "flag": "🇨🇦", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 4, "ga": 5, "pts": 3, "qualified": false },
+        { "code": "EGY", "name": "エジプト", "flag": "🇪🇬", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false },
+        { "code": "NZL", "name": "ニュージーランド", "flag": "🇳🇿", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 5, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "D",
+      "teams": [
+        { "code": "FRA", "name": "フランス", "flag": "🇫🇷", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 5, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "GER", "name": "ドイツ", "flag": "🇩🇪", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "ITA", "name": "イタリア", "flag": "🇮🇹", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false },
+        { "code": "ALG", "name": "アルジェリア", "flag": "🇩🇿", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 4, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "E",
+      "teams": [
+        { "code": "ENG", "name": "イングランド", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 5, "ga": 1, "pts": 6, "qualified": true },
+        { "code": "POR", "name": "ポルトガル", "flag": "🇵🇹", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "URU", "name": "ウルグアイ", "flag": "🇺🇾", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 3, "pts": 1, "qualified": false },
+        { "code": "KOR", "name": "韓国", "flag": "🇰🇷", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 4, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "F",
+      "teams": [
+        { "code": "NED", "name": "オランダ", "flag": "🇳🇱", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 6, "ga": 2, "pts": 6, "qualified": true },
+        { "code": "JPN", "name": "日本", "flag": "🇯🇵", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "SWE", "name": "スウェーデン", "flag": "🇸🇪", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "TUN", "name": "チュニジア", "flag": "🇹🇳", "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 1, "ga": 5, "pts": 0, "qualified": false }
+      ],
+      "matches": [
+        { "home": "JPN", "away": "TUN", "homeScore": 2, "awayScore": 1, "played": true },
+        { "home": "NED", "away": "SWE", "homeScore": 3, "awayScore": 1, "played": true },
+        { "home": "NED", "away": "JPN", "homeScore": 3, "awayScore": 1, "played": true },
+        { "home": "SWE", "away": "TUN", "homeScore": 2, "awayScore": 0, "played": true },
+        { "home": "JPN", "away": "SWE", "homeScore": null, "awayScore": null, "played": false },
+        { "home": "NED", "away": "TUN", "homeScore": null, "awayScore": null, "played": false }
+      ]
+    },
+    {
+      "id": "G",
+      "teams": [
+        { "code": "BEL", "name": "ベルギー", "flag": "🇧🇪", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "NOR", "name": "ノルウェー", "flag": "🇳🇴", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 5, "ga": 3, "pts": 4, "qualified": false },
+        { "code": "SEN", "name": "セネガル", "flag": "🇸🇳", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false },
+        { "code": "CHN", "name": "中国", "flag": "🇨🇳", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 4, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "H",
+      "teams": [
+        { "code": "PRT", "name": "ポルトガル", "flag": "🇵🇹", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 5, "ga": 1, "pts": 6, "qualified": true },
+        { "code": "COL", "name": "コロンビア", "flag": "🇨🇴", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "MAR", "name": "モロッコ", "flag": "🇲🇦", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 3, "pts": 1, "qualified": false },
+        { "code": "GHA", "name": "ガーナ", "flag": "🇬🇭", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 4, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "I",
+      "teams": [
+        { "code": "NGA", "name": "ナイジェリア", "flag": "🇳🇬", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "TUR", "name": "トルコ", "flag": "🇹🇷", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 3, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "CIV", "name": "コートジボワール", "flag": "🇨🇮", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 3, "pts": 1, "qualified": false },
+        { "code": "AUS", "name": "オーストラリア", "flag": "🇦🇺", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 3, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "J",
+      "teams": [
+        { "code": "CRO", "name": "クロアチア", "flag": "🇭🇷", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 4, "ga": 1, "pts": 6, "qualified": true },
+        { "code": "DEN", "name": "デンマーク", "flag": "🇩🇰", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "IRN", "name": "イラン", "flag": "🇮🇷", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 3, "pts": 1, "qualified": false },
+        { "code": "ECU", "name": "エクアドル", "flag": "🇪🇨", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 3, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "K",
+      "teams": [
+        { "code": "NED2", "name": "オランダ", "flag": "🇳🇱", "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 5, "ga": 1, "pts": 6, "qualified": true },
+        { "code": "SCO", "name": "スコットランド", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 3, "ga": 3, "pts": 3, "qualified": false },
+        { "code": "PRY", "name": "パラグアイ", "flag": "🇵🇾", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 3, "pts": 1, "qualified": false },
+        { "code": "IRQ", "name": "イラク", "flag": "🇮🇶", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 4, "pts": 1, "qualified": false }
+      ]
+    },
+    {
+      "id": "L",
+      "teams": [
+        { "code": "MEX2", "name": "メキシコ", "flag": "🇲🇽", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "VEN", "name": "ベネズエラ", "flag": "🇻🇪", "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 3, "ga": 2, "pts": 4, "qualified": false },
+        { "code": "WAL", "name": "ウェールズ", "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 3, "pts": 1, "qualified": false },
+        { "code": "KEN", "name": "ケニア", "flag": "🇰🇪", "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 3, "pts": 1, "qualified": false }
+      ]
+    }
+  ]
+}
